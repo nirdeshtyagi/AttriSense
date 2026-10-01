@@ -1,0 +1,50 @@
+{
+  "source": "User's original AttriSense project notebook",
+  "workflow": [
+    "LabelEncoder on categorical columns",
+    "RandomOverSampler(random_state=42)",
+    "PCA(n_components=2, random_state=0)",
+    "RandomForestClassifier(bootstrap=False, max_depth=100, min_samples_leaf=1, min_samples_split=2, n_estimators=250, random_state=42)"
+  ],
+  "feature_count": 30,
+  "features": [
+    "Age",
+    "BusinessTravel",
+    "DailyRate",
+    "Department",
+    "DistanceFromHome",
+    "Education",
+    "EducationField",
+    "EnvironmentSatisfaction",
+    "Gender",
+    "HourlyRate",
+    "JobInvolvement",
+    "JobLevel",
+    "JobRole",
+    "JobSatisfaction",
+    "MaritalStatus",
+    "MonthlyIncome",
+    "MonthlyRate",
+    "NumCompaniesWorked",
+    "OverTime",
+    "PercentSalaryHike",
+    "PerformanceRating",
+    "RelationshipSatisfaction",
+    "StockOptionLevel",
+    "TotalWorkingYears",
+    "TrainingTimesLastYear",
+    "WorkLifeBalance",
+    "YearsAtCompany",
+    "YearsInCurrentRole",
+    "YearsSinceLastPromotion",
+    "YearsWithCurrManager"
+  ],
+  "training_rows_before_oversampling": 1470,
+  "training_rows_after_oversampling": 2466,
+  "pca_components": 2,
+  "explained_variance_ratio": [
+    0.7222522011199325,
+    0.2754634085203606
+  ],
+  "note": "This deployment artifact follows the user's original notebook workflow. The notebook's reported CV score can be optimistic because oversampling was performed before cross-validation."
+}

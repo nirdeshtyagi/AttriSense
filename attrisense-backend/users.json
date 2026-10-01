@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Test User",
+    "email": "test@attrisense.com",
+    "passwordHash": "$2b$10$E0a7aTFgctvxLv2ZBexoL.ADJ17H.VFA7sgJ7Xm2H6vWBBE3xzR2m",
+    "role": "HR Manager",
+    "createdAt": "2026-08-29T13:26:05.086Z"
+  },
+  {
+    "id": 2,
+    "name": "man123",
+    "email": "doubtnut1410@gmail.com",
+    "passwordHash": "$2b$10$aHVRdcKLFF1VaJf0eIh8TOrEhsQ9w/lzhoFED9uRzr8qEHDCVZbKO",
+    "role": "HR Manager",
+    "createdAt": "2026-08-29T13:32:05.331Z"
+  }
+]
